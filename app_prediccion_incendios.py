@@ -89,7 +89,7 @@ st.markdown("""
 # ============================================================================
 
 with st.sidebar:
-    st.image("https://via.placeholder.com/300x100/FF4B4B/FFFFFF?text=Córdoba+Fire+Risk", use_container_width=True)
+    #st.image("", use_container_width=True)
     
     st.markdown("### 📍 Sobre este proyecto")
     st.info("""
@@ -558,7 +558,7 @@ with tab4:
         #### ⚙️ Datos Técnicos del Modelo
         
         - **Fuente de datos:** NASA POWER + FIRMS/VIIRS
-        - **Período entrenamiento:** 2001-2022
+        - **Período entrenamiento:** 20017-2022
         - **Período validación:** 2023-2024
         - **Métrica principal:** PR-AUC, Brier Score
         - **Región:** Provincia de Córdoba, Argentina
@@ -574,8 +574,6 @@ col_f1, col_f2, col_f3 = st.columns(3)
 with col_f1:
     st.markdown("**👩‍💻 Desarrollado por:** Dana Angellotti")
 
-with col_f2:
-    st.markdown("**🎓 Proyecto:** Tesis de Grado")
 
 with col_f3:
     st.markdown("**📅 Año:** 2024-2025")
